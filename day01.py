@@ -23,3 +23,4 @@ with open('day01.txt') as input_file:
         ans += int(str(first) + str(last))
 
     print(ans)
+
