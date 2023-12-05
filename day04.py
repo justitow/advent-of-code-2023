@@ -25,5 +25,5 @@ winning_array = [1 for line in puzzle]
 for i, line in enumerate(puzzle):
     total = find_score(line)
     for offset in range(total):
-        winning_array[i + 1 + offset] += 1 * (winning_array[i])
+        winning_array[i + 1 + offset] += (winning_array[i])
 print(sum(winning_array))
