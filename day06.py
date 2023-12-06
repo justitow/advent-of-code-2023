@@ -41,8 +41,5 @@ time = ''.join(times)
 distance = ''.join(distances)
 time = int(time)
 distance = int(distance)
-
-time = int(time)
-distance = int(distance)
 lowest, highest = lowest_and_highest(time, distance)
 print(highest - lowest + 1)
