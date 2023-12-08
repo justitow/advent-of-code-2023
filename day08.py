@@ -81,5 +81,5 @@ for node_ref in cycles:
 
 lcm = 1
 for i in reps:
-    lcm = lcm*i//math.gcd(lcm, i)
+    lcm = math.lcm(lcm, i)
 print(lcm)
