@@ -72,12 +72,14 @@ while keep_going(cycles):
         nodes.append(next_nodes.pop())
     count += 1
     true_count += 1
+print(cycles)
 
 
 reps = []
 for node_ref in cycles:
     cycles[node_ref].sort()
     reps.append(cycles[node_ref][1] - cycles[node_ref][0])
+print(reps)
 
 lcm = 1
 for i in reps:
